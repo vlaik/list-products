@@ -1,0 +1,18 @@
+@use 'styles/style' as *;
+
+.header{
+    height: 60px;
+    width: 100%;
+    background: $color-space-blue;
+    padding: 0 20px;
+}
+
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}

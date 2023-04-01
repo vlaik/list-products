@@ -1,0 +1,40 @@
+@use 'styles/style' as *;
+
+.button {
+  width: 100%;
+  max-width: fit-content;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid $color-gray;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  background: $color-gray;
+  box-sizing: border-box;
+  transition: 0.2s;
+  outline: none;
+  &:hover {
+    border: 1px solid $color-white;
+    background: $color-white;
+    color: $color-space-blue;
+  }
+}
+
+.danger {
+  background: $color-red;
+  color: $color-white;
+}
+
+.success {
+  background: $color-green;
+}
+
+.large {
+  padding: 10px 25px;
+}
+
+.block {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+}

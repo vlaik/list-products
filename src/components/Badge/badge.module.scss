@@ -1,0 +1,21 @@
+@use 'styles/style' as *;
+
+.badge {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: $color-white;
+  color: $color-space-blue;
+  background: $color-gray;
+}
+
+.new {
+  background-color: $color-orange;
+}

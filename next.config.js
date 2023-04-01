@@ -17,10 +17,11 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    domains: ['jjji.ru'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'developer.laros.ch',
+        hostname: 'jjji.ru',
       },
     ],
   },

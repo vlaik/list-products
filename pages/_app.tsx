@@ -3,13 +3,13 @@ import { Layout } from 'features'
 import { Provider } from 'react-redux'
 import { store } from 'store'
 
+import 'styles/globals.scss'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Provider store={store}>
-      {/* <Layout> */}
+    <Layout>
       <Component {...pageProps} />
-      {/* </Layout> */}
-    </Provider>
+    </Layout>
   )
 }
 
